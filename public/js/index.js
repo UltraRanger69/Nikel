@@ -6,6 +6,7 @@ checkLogged();
 //LOGAR NO SISTEMA
 
 document.getElementById("login-form").addEventListener("submit", function(e) {
+    e.preventDefault();
     
     const email = document.getElementById("exampleInputEmail1").value;
     const password = document.getElementById("exampleInputPassword1").value;
