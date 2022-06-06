@@ -53,7 +53,7 @@ saveAccount({
     login: email,
     password: password,
     transactions: []
-})
+});
 
 myModal.hide();
 
