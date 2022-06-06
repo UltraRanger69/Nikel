@@ -73,7 +73,7 @@ if(logged) {
 }
 
 function saveAccount(data) {
-localStorage.setItem(data.email, JSON.stringify(data))
+localStorage.setItem(data.login, JSON.stringify(data))
 }
 
 function saveSession(data, saveSession) {
